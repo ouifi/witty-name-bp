@@ -2,6 +2,7 @@
 - [Witty Name](#witty-name)
   - [Introduction](#introduction)
     - [Start App](#start-app)
+      - [Pre Reqs](#pre-reqs)
     - [Tech Stack](#tech-stack)
   - [To Do List](#to-do-list)
     - [Server](#server)
@@ -12,8 +13,13 @@
 ## Introduction
 
 ### Start App
+#### Pre Reqs
+Yarn 1.22 installed. I make no guarantees about running this code with npm. 
 
 ```
+git clone ...
+cd witty-name-bp
+yarn set version berry
 yarn start
 ```
 
