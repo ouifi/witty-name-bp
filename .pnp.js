@@ -34,6 +34,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:14.6.0"
       ],
       [
+        "@types/react",
+        "npm:16.9.48"
+      ],
+      [
+        "@types/react-dom",
+        "npm:16.9.8"
+      ],
+      [
         "@typescript-eslint/eslint-plugin",
         "virtual:54ffab77dca4f6b67766e5788845a7e19f4bf00f5fa76ae84dc5a12fe56972f8e9a198046cb002ed89ab7447633254edd845b6319ace575fa0757bcaee9300a8#npm:3.9.1"
       ],
@@ -44,6 +52,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [
         "dotenv",
         "npm:8.2.0"
+      ],
+      [
+        "esbuild",
+        "npm:0.6.28"
       ],
       [
         "eslint",
@@ -86,9 +98,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@types/node", "npm:14.6.0"],
+            ["@types/react", "npm:16.9.48"],
+            ["@types/react-dom", "npm:16.9.8"],
             ["@typescript-eslint/eslint-plugin", "virtual:54ffab77dca4f6b67766e5788845a7e19f4bf00f5fa76ae84dc5a12fe56972f8e9a198046cb002ed89ab7447633254edd845b6319ace575fa0757bcaee9300a8#npm:3.9.1"],
             ["@typescript-eslint/parser", "virtual:54ffab77dca4f6b67766e5788845a7e19f4bf00f5fa76ae84dc5a12fe56972f8e9a198046cb002ed89ab7447633254edd845b6319ace575fa0757bcaee9300a8#npm:3.9.1"],
             ["dotenv", "npm:8.2.0"],
+            ["esbuild", "npm:0.6.28"],
             ["eslint", "npm:7.7.0"],
             ["fastify", "npm:3.3.0"],
             ["fastify-helmet", "npm:5.0.0"],
@@ -200,6 +215,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-14.6.0-3b4a148c02-ff23553ab7.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:14.6.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/prop-types", [
+        ["npm:15.7.3", {
+          "packageLocation": "./.yarn/cache/@types-prop-types-npm-15.7.3-084e0015c6-bd0eab69d5.zip/node_modules/@types/prop-types/",
+          "packageDependencies": [
+            ["@types/prop-types", "npm:15.7.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/react", [
+        ["npm:16.9.48", {
+          "packageLocation": "./.yarn/cache/@types-react-npm-16.9.48-eb73a6392f-af2f713399.zip/node_modules/@types/react/",
+          "packageDependencies": [
+            ["@types/react", "npm:16.9.48"],
+            ["@types/prop-types", "npm:15.7.3"],
+            ["csstype", "npm:3.0.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/react-dom", [
+        ["npm:16.9.8", {
+          "packageLocation": "./.yarn/cache/@types-react-dom-npm-16.9.8-9dde59da5d-53a223c026.zip/node_modules/@types/react-dom/",
+          "packageDependencies": [
+            ["@types/react-dom", "npm:16.9.8"],
+            ["@types/react", "npm:16.9.48"]
           ],
           "linkType": "HARD",
         }]
@@ -893,6 +938,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["csstype", [
+        ["npm:3.0.3", {
+          "packageLocation": "./.yarn/cache/csstype-npm-3.0.3-1361b4cdeb-ec722366b4.zip/node_modules/csstype/",
+          "packageDependencies": [
+            ["csstype", "npm:3.0.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["dashdash", [
         ["npm:1.14.1", {
           "packageLocation": "./.yarn/cache/dashdash-npm-1.14.1-be8f10a286-5959409ee4.zip/node_modules/dashdash/",
@@ -1131,6 +1185,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/env-paths-npm-2.2.0-ac4ed99068-09de4fd1c0.zip/node_modules/env-paths/",
           "packageDependencies": [
             ["env-paths", "npm:2.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["esbuild", [
+        ["npm:0.6.28", {
+          "packageLocation": "./.yarn/unplugged/esbuild-npm-0.6.28-a1133ba1b3/node_modules/esbuild/",
+          "packageDependencies": [
+            ["esbuild", "npm:0.6.28"]
           ],
           "linkType": "HARD",
         }]
@@ -3690,9 +3753,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["witty-name", "workspace:."],
             ["@types/node", "npm:14.6.0"],
+            ["@types/react", "npm:16.9.48"],
+            ["@types/react-dom", "npm:16.9.8"],
             ["@typescript-eslint/eslint-plugin", "virtual:54ffab77dca4f6b67766e5788845a7e19f4bf00f5fa76ae84dc5a12fe56972f8e9a198046cb002ed89ab7447633254edd845b6319ace575fa0757bcaee9300a8#npm:3.9.1"],
             ["@typescript-eslint/parser", "virtual:54ffab77dca4f6b67766e5788845a7e19f4bf00f5fa76ae84dc5a12fe56972f8e9a198046cb002ed89ab7447633254edd845b6319ace575fa0757bcaee9300a8#npm:3.9.1"],
             ["dotenv", "npm:8.2.0"],
+            ["esbuild", "npm:0.6.28"],
             ["eslint", "npm:7.7.0"],
             ["fastify", "npm:3.3.0"],
             ["fastify-helmet", "npm:5.0.0"],

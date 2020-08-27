@@ -1,6 +1,10 @@
 {
     "root": true,
     "parser": "@typescript-eslint/parser",
+    "env": {
+        "browser": true,
+        "node": true
+    },
     "plugins": [
         "@typescript-eslint"
     ],
@@ -12,5 +16,6 @@
     "rules": {
         "semi": "warn",
         "no-unused-vars": "off"
-    }
+    },
+    "ignorePatterns": ["**/build/*"]
 }
