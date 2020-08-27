@@ -1,6 +1,6 @@
-import { FastifyInstance, FastifyPlugin } from "fastify";
+import { FastifyInstance, FastifyPluginCallback } from "fastify";
 
-const test: FastifyPlugin<{
+const test: FastifyPluginCallback<{
     echo?: string
 }> = function (instance: FastifyInstance, opts, done): void {
 
